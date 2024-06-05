@@ -6,6 +6,6 @@ describe('Footer', () => {
   it('renders correctly', () => {
     render(<Footer/>);
     expect(screen.getByText(/Copyright Text/i)).toBeInTheDocument();
-    expect(screen.getAllByRole('link')).toBeInTheDocument();
+    expect(screen.getAllByRole('link')).toHaveLength(1);
   });
 })

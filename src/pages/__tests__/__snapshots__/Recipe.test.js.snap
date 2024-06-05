@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recipe should render a recipe witout area and youtube 1`] = `
+<div
+  class="recipe"
+  role="article"
+>
+  <img
+    alt="First"
+    src="strMealThumb"
+  />
+  <h1>
+    First
+  </h1>
+  <h6>
+    Category: 
+    Category
+  </h6>
+  <p>
+    Instructions
+  </p>
+  <table
+    class="centered"
+  >
+    <thead>
+      <tr>
+        <th>
+          Ingredient
+        </th>
+        <th>
+          Measure
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          ingredient1
+        </td>
+        <td>
+          measure1
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Recipe should render correctly 1`] = `
+<div
+  class="recipe"
+  role="article"
+>
+  <img
+    alt="First"
+    src="strMealThumb"
+  />
+  <h1>
+    First
+  </h1>
+  <h6>
+    Category: 
+    Category
+  </h6>
+  <h6>
+    Area: 
+    Area
+  </h6>
+  <p>
+    Instructions
+  </p>
+  <table
+    class="centered"
+  >
+    <thead>
+      <tr>
+        <th>
+          Ingredient
+        </th>
+        <th>
+          Measure
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          ingredient1
+        </td>
+        <td>
+          measure1
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
